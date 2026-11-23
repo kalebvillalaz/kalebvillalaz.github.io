@@ -38,11 +38,11 @@ window.SITE = {
      (see posts below). The first link that exists is the main click target. */
   projects: [
     {
-      name: "Project 01",
-      status: "Placeholder",
-      desc: "Description.",
-      tags: ["Tag", "Tag"],
-      repo: "https://github.com/your-username/project-02"
+      name: "PiHole; Ad/Tracker Blocker",
+      status: "Completed",
+      desc: "With the use of a Raspberry Pi, a network-wide Ad and Tracker blocker is created.",
+      tags: ["Raspberry Pi", "Network", "Terminal"],
+      post: "Pihole"
     },
     {
       name: "Project 02",
@@ -55,23 +55,30 @@ window.SITE = {
 
   /* ---- skills (SMD parts). prefix: R = resistor, C = capacitor, L = inductor */
   skills: [
-    { group: "Languages", prefix: "R", items: ["C / C++", "Python", "HTML / CSS", "JavaScript"] },
-    { group: "Spoken Languages", prefix: "R", items: ["English", "Spanish"]},
-    { group: "Tools",     prefix: "C", items: ["Git", "Linux", "VS Code", "MipSYM"] },
-    { group: "Hardware",  prefix: "L", items: ["Raspberry Pi", "Networking", "Home lab", "Soldering"] }
-  ],
+      { group: "Languages", prefix: "R", items: ["C / C++", "Python", "HTML / CSS", "JavaScript"] },
+      { group: "Spoken Languages", prefix: "R", items: ["English", "Spanish"]},
+      { group: "Tools",     prefix: "C", items: ["Git", "Linux", "VS Code", "MipSYM"] },
+      { group: "Hardware",  prefix: "L", items: ["Raspberry Pi", "Networking", "Home lab", "Soldering"] }
+   ],
 
   /* ---- blog posts ------------------------------------------------------
      Each post = a Markdown file at posts/<slug>.md plus an entry here.
      date is YYYY-MM-DD. Newest date is listed first.                      */
-  posts: [
-    {
-      slug: "welcome",
-      title: "Welcome to the board",
-      date: "2026-11-22",
-      tags: ["meta"],
-      summary: "How this site was made."
-    }
+   posts: [
+     {
+         slug: "welcome",
+         title: "Welcome to the board",
+         date: "2026-11-22",
+         tags: ["meta"],
+         summary: "How this site was made."
+     },
+     {   
+        slug: "PiHole",
+        title: "Making a built-in ad blocker",
+        date: "2026-11-23",
+        tags: ["Raspberry Pi", "Network", "Terminal"],
+        summary: "Process, What I learned, and Was it worth it?"]
+     }  
   ],
 
   /* ---- footer ----------------------------------------------------------- */
