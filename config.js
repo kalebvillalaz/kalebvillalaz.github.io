@@ -29,7 +29,7 @@ window.SITE = {
   socials: [
     { label: "GitHub",   handle: "github.com/kalebvillalaz",     href: "https://github.com/kalebvillalaz" },
     { label: "LinkedIn", handle: "linkedin.com/in/rodolfokvillalaz", href: "https://www.linkedin.com/in/rodolfokvillalaz" },
-    { label: "Email",    handle: "rodolfokvillalaz@gail.com",              href: "mailto:rodolfokvillalaz@gmail.com" },
+    { label: "Email",    handle: "rodolfokvillalaz@gmail.com",              href: "mailto:rodolfokvillalaz@gmail.com" },
     { label: "Resume",   handle: "resume.pdf",                   href: "resume.pdf" }
   ],
 
@@ -42,7 +42,7 @@ window.SITE = {
       status: "Completed",
       desc: "With the use of a Raspberry Pi, a network-wide Ad and Tracker blocker is created.",
       tags: ["Raspberry Pi", "Network", "Terminal"],
-      post: "Pihole"
+      post: "PiHole"
     },
     {
       name: "Project 02",
