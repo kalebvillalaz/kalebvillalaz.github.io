@@ -40,14 +40,14 @@ window.SITE = {
     {
       name: "Project 01",
       status: "Placeholder",
-      desc: "One line on what it does and why you built it. Then one line on what you used.",
+      desc: "Description.",
       tags: ["Tag", "Tag"],
       repo: "https://github.com/your-username/project-02"
     },
     {
       name: "Project 02",
       status: "Placeholder",
-      desc: "Same idea.",
+      desc: "Description.",
       tags: ["Tag", "Tag"],
       repo: "https://github.com/your-username/project-03"
     }
@@ -56,7 +56,7 @@ window.SITE = {
   /* ---- skills (SMD parts). prefix: R = resistor, C = capacitor, L = inductor */
   skills: [
     { group: "Languages", prefix: "R", items: ["C / C++", "Python", "HTML / CSS", "JavaScript"] },
-    {group : "Spoken Languages", prefix: "R", items: ["English", "Spanish"]},
+    { group: "Spoken Languages", prefix: "R", items: ["English", "Spanish"]},
     { group: "Tools",     prefix: "C", items: ["Git", "Linux", "VS Code", "MipSYM"] },
     { group: "Hardware",  prefix: "L", items: ["Raspberry Pi", "Networking", "Home lab", "Soldering"] }
   ],
@@ -70,14 +70,7 @@ window.SITE = {
       title: "Welcome to the board",
       date: "2026-11-22",
       tags: ["meta"],
-      summary: "How this site works and how to add a post."
-    },
-    {
-      slug: "home-lab",
-      title: "Home lab: write-up (draft)",
-      date: "2026-11-22",
-      tags: ["home lab", "template"],
-      summary: "A skeleton for writing up a project: layout, decisions, what broke."
+      summary: "How this site was made."
     }
   ],
 
