@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <meta name="description" content="Projects and build log.">
+  <meta name="theme-color" content="#04100b">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230c4632'/%3E%3Crect x='9' y='9' width='14' height='14' fill='%23101412'/%3E%3Cpath d='M12 9V4M16 9V4M20 9V4M12 28v-5M16 28v-5M20 28v-5M9 12H4M9 16H4M9 20H4M28 12h-5M28 16h-5M28 20h-5' stroke='%23d9a441' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="board" id="board">
+    <svg class="traces" id="traces" aria-hidden="true" focusable="false"></svg>
+    <i class="mount tl" aria-hidden="true"></i><i class="mount tr" aria-hidden="true"></i>
+    <i class="mount bl" aria-hidden="true"></i><i class="mount br" aria-hidden="true"></i>
+
+    <header class="titleblock" id="titleblock"></header>
+
+    <main class="stage" id="main">
+      <div class="grid" id="view-board"></div>
+      <article class="post" id="view-post" hidden></article>
+    </main>
+
+    <footer class="foot" id="foot"></footer>
+    <div class="fingers" aria-hidden="true"></div>
+  </div>
+
+  <noscript><p style="color:#eef3ea;font-family:monospace;text-align:center;padding:2em">This site needs JavaScript to draw the board.</p></noscript>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
