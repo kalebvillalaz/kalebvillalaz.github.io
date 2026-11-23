@@ -1,29 +1,15 @@
-This is the first entry in the build log. Everything on this board is plain HTML, CSS and JavaScript, so there is no build step and nothing to install.
+This site will be the home to my projects and their build logs. 
 
-## How posts work
+## How this site was created. 
 
-Each post is a Markdown file in the `posts/` folder, plus one entry in `config.js` that gives it a title, date, tags and a one-line summary. The file name has to match the `slug` in that entry.
+This site was made with the assistance of Claude. 
 
-1. Create `posts/my-new-post.md` and write the post.
-2. Add an entry to the `posts` list in `config.js` with `slug: "my-new-post"`.
-3. Commit and push. GitHub Pages redeploys in about a minute.
+**Prompt:** "First, do not create a generic website. Remove all prior ideas of what a resume website should look like and follow my instructions. I want you to make me a website that looks like a PCB board. I want it to have interactive links for projects, social media, and information. I also want it to be a sort of blog-style website where I can post about projects."
 
-## What you can write
+It was important to add the beginning of the prompt to avoid the generic AI look that is becoming commonplace. 
 
-Headings, **bold**, *italics*, `inline code`, [links](https://example.com), lists, quotes, horizontal rules and fenced code blocks all work.
+This site can support video, images, and code blocks.
 
-```c
-// blink an LED: the hello world of hardware
-void loop(void) {
-    gpio_toggle(LED_PIN);
-    delay_ms(500);
-}
-```
+## Future Plans
 
-> Write about what broke and what you changed. That is the part worth reading.
-
-Images go in `posts/img/` and are added like this: `![diagram of the setup](posts/img/setup.png)`.
-
----
-
-Delete this post and the draft home lab post once you have your own.
+I plan on building and incorporating a chatbot to the site that is able to help people get in contact with me. Another interesting possibility could be to have the chatbot be able to explain my projects. 
