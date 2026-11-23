@@ -77,7 +77,7 @@ window.SITE = {
         title: "Making a built-in ad blocker",
         date: "2026-11-23",
         tags: ["Raspberry Pi", "Network", "Terminal"],
-        summary: "Process, What I learned, and Was it worth it?"]
+        summary: "Process, What I learned, and Was it worth it?"
      }  
   ],
 
